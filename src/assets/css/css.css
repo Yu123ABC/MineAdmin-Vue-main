@@ -1,0 +1,123 @@
+.H_content .arco-input-append{
+		background:white;
+		padding:0px;
+	}
+	.H_content .arco-input-outer > .arco-input-wrapper{
+		background:white;
+		border: none;
+	}
+	.H_content .arco-btn-primary, .H_content .arco-btn-primary[type='button'], .H_content .arco-btn-primary[type='submit']{
+		background: #f07700;
+		    font-size: 1.4rem;
+		    height: 100%;
+		    width: 100%;
+		    width: 8rem;
+			border-radius: 1.8rem 1.8rem 1.8rem 1.8rem;
+	}
+	.H_content .arco-input-prepend, .H_content .arco-input-append{
+		border: none;
+		font-size:1.4rem;
+		padding-left: 2rem;
+		background:white;
+	}
+	.arco-select-view-single.arco-select-view-size-medium .arco-select-view-input, .arco-select-view-single.arco-select-view-size-medium .arco-select-view-value{
+		font-size:1.4rem;
+	}
+	
+	.H_content .arco-input-outer {
+	    display: inline-flex;
+	    width: 100%;
+	    height: 3.6rem;
+		background:white;
+		    min-height: 32px;
+	}
+	.H_content .arco-input-wrapper .arco-input.arco-input-size-medium{
+		font-size:1.4rem;
+	}
+	.H_content .arco-space-vertical {
+	    flex-direction: column;
+	  border-radius: 1.8rem 1.8rem 1.8rem 1.8rem;
+	    position: relative;
+	    overflow: hidden;
+	}
+	.H-listM .arco-tabs-nav::before{
+		display: none;
+	}
+	.H-listM .arco-tabs-tab{
+		font-size:1.53rem;
+	}
+	.H-listM .arco-tabs-tab-active, .H-listM .arco-tabs-tab-active:hover{
+		color: #000;
+		font-weight: bold;
+	}
+	.H-listM .arco-tabs-nav-ink{
+		background:#f07700;
+	}
+	.H-listM .arco-btn-size-medium ,.H-listM .arco-select-view-single{
+		    font-size: 1.35rem;
+		    color: #9c9c9c;
+		    border: 1px solid #c3c3c3;
+		    box-sizing: border-box;
+		    margin: 0px 1rem;
+		    border-radius: 1.8rem;
+			    background: none;
+	}
+	.H-listM .arco-select-view-single{
+		width: 7.5rem;
+	}
+	.H-listM .arco-select-view-single .arco-select-view-suffix{
+		padding-left:0px;
+	}
+	.H-listM .arco-row-justify-start{
+		margin:1.5% 0px;
+	}
+	.page{
+		margin-top:4rem;
+	}
+	.page .arco-pagination{
+		justify-content: center;
+	}
+	.page .arco-pagination-item{
+		background:white;
+	}
+	.page .arco-pagination-item-active, .page .arco-pagination-item-active:hover{
+		background:#f84949;
+		color:white;
+	}
+	.page .arco-input-wrapper .arco-input.arco-input-size-medium{
+		background:white;
+		box-shadow:none;
+	}
+	
+	@media all and (max-width:1300px){
+		
+		.H-listM .img_cc{
+			height:23.2rem;
+		}
+		.H-listM .arco-tabs-tab{
+			font-size:20px;
+		}
+	}
+	
+	@media all and (max-width:992px){
+		.H-listM .arco-select-view-single{
+			width:73px;
+		}
+		.arco-pagination-total,.arco-pagination-jumper{
+			display: none;
+		}
+		.page{
+			margin:8rem 0px;
+		}
+		.H-listM .arco-tabs-tab{
+			font-size:18px;
+		}
+	}
+	
+	@media all and (max-width:768px){
+		.H-listM .arco-tabs-tab{
+			font-size:16px;
+		}
+	}
+	
+	
